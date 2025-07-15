@@ -1,1 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stephen Louie | Data Scientist</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Set the default font for the entire page */
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth; /* Enables smooth scrolling for the whole page */
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-700">
+
+    <!-- Header & Navigation -->
+    <header class="bg-white/80 backdrop-blur-lg sticky top-0 z-50 shadow-sm">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-gray-800">Stephen Louie</a>
+            <div class="hidden md:flex items-center space-x-8">
+                <!-- Navigation links with styling applied directly -->
+                <a href="#about" class="text-gray-600 hover:text-sky-600 transition-colors duration-300">About</a>
+                <a href="#skills" class="text-gray-600 hover:text-sky-600 transition-colors duration-300">Skills</a>
+                <a href="#projects" class="text-gray-600 hover:text-sky-600 transition-colors duration-300">Projects</a>
+                <a href="#contact" class="text-gray-600 hover:text-sky-600 transition-colors duration-300">Contact</a>
+            </div>
+            <a href="Louie_2025.docx" download class="hidden md:inline-block bg-sky-600 text-white font-semibold px-5 py-2 rounded-lg hover:bg-sky-700 transition-colors duration-300">
+                <i class="fas fa-download mr-2"></i>Resume
+            </a>
+            <!-- Mobile menu button -->
+            <button id="mobile-menu-button" class="md:hidden text-gray-700 focus:outline-none">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden px-6 pb-4">
+            <a href="#about" class="block py-2 text-gray-600 hover:text-sky-600 transition-colors duration-300">About</a>
+            <a href="#skills" class="block py-2 text-gray-600 hover:text-sky-600 transition-colors duration-300">Skills</a>
+            <a href="#projects" class="block py-2 text-gray-600 hover:text-sky-600 transition-colors duration-300">Projects</a>
+            <a href="#contact" class="block py-2 text-gray-600 hover:text-sky-600 transition-colors duration-300">Contact</a>
+            <a href="Louie_2025.docx" download class="block mt-4 text-center bg-sky-600 text-white font-semibold px-5 py-2 rounded-lg hover:bg-sky-700 transition-colors duration-300">
+                <i class="fas fa-download mr-2"></i>Resume
+            </a>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-6 py-12">
+
+        <!-- About/Hero Section -->
+        <section id="about" class="text-center py-20">
+            <h1 class="text-4xl md:text-6xl font-extrabold text-gray-900 mb-2">Stephen Louie</h1>
+            <h2 class="text-2xl md:text-3xl font-light text-sky-600 mb-6">Aspiring Data Scientist</h2>
+            <p class="max-w-3xl mx-auto text-lg text-gray-600 mb-8">
+                With a Master's in Business Analytics and a proven track record of applying machine learning, statistical analysis, and data engineering to solve complex problems. Passionate about leveraging data to drive decision-making and improve outcomes, with a special interest in the healthcare, sustainability and non-profit sectors.
+            </p>
+            <a href="#projects" class="bg-sky-600 text-white font-semibold px-8 py-3 rounded-lg hover:bg-sky-700 transition-colors duration-300 text-lg">
+                View My Work
+            </a>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="py-20">
+            <!-- Section title with styling applied directly -->
+            <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">Technical Skills</h2>
+            <div class="max-w-4xl mx-auto">
+                <div class="mb-8">
+                    <h3 class="text-xl font-semibold text-gray-700 mb-4">Technologies & Languages</h3>
+                    <div class="flex flex-wrap">
+                        <!-- Skill tags with styling applied directly -->
+                        <span class="bg-sky-100 text-sky-800 text-sm font-medium mr-2 mb-2 px-3 py-1.5 rounded-full">Python</span>
+                        <span class="bg-sky-100 text-sky-800 text-sm font-medium mr-2 mb-2 px-3 py-1.5 rounded-full">R</span>
+                        <span class="bg-sky-100 text-sky-800 text-sm font-medium mr-2 mb-2 px-3 py-1.5 rounded-full">SQL</span>
+                        <span class="bg-sky-100 text-sky-800 text-sm font-medium mr-2 mb-2 px-3 py-1.5 rounded-full">Google Cloud Platform</span>
+                        <span class="bg-sky-100 text-sky-800 text-sm font-medium mr-2 mb-2 px-3 py-1.5 rounded-full">Advanced Excel</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-700 mb-4">Specialties & Methods</h3>
+                    <div class="flex flex-wrap">
+                        <span class="bg-sky-100 text-sky-800 text-sm font-medium mr-2 mb-2 px-3 py-1.5 rounded-full">Exploratory Data Analysis</span>
+                        <span class="bg-sky-100 text-sky-800 text-sm font-medium mr-2 mb-2 px-3 py-1.5 rounded-full">Statistical Exploration</span>
+                        <span class="bg-sky-100 text-sky-800 text-sm font-medium mr-2 mb-2 px-3 py-1.5 rounded-full">Data Visualization</span>
+                        <span class="bg-sky-100 text-sky-800 text-sm font-medium mr-2 mb-2 px-3 py-1.5 rounded-full">Supervised Machine Learning</span>
+                        <span class="bg-sky-100 text-sky-800 text-sm font-medium mr-2 mb-2 px-3 py-1.5 rounded-full">Unsupervised Machine Learning</span>
+                        <span class="bg-sky-100 text-sky-800 text-sm font-medium mr-2 mb-2 px-3 py-1.5 rounded-full">Experimental Design</span>
+                        <span class="bg-sky-100 text-sky-800 text-sm font-medium mr-2 mb-2 px-3 py-1.5 rounded-full">A/B Testing</span>
+                        <span class="bg-sky-100 text-sky-800 text-sm font-medium mr-2 mb-2 px-3 py-1.5 rounded-full">Model Benchmarking</span>
+                        <span class="bg-sky-100 text-sky-800 text-sm font-medium mr-2 mb-2 px-3 py-1.5 rounded-full">Recommendation Systems</span>
+                        <span class="bg-sky-100 text-sky-800 text-sm font-medium mr-2 mb-2 px-3 py-1.5 rounded-full">Data Engineering (ETL)</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="py-20 bg-gray-100 -mx-6 px-6">
+            <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">Projects & Experience</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- Project 1: Angel Flight West -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden transform transition-transform duration-300 hover:scale-105">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Pilot-Mission Match Analytics</h3>
+                        <p class="text-sm text-gray-500 mb-4">Angel Flight West (UC Davis MSBA Practicum)</p>
+                        <p class="mb-4">Developed predictive models and a recommendation system to increase pilot engagement and mission completion rates for a leading nonprofit volunteer pilot organization.</p>
+                        <ul class="list-disc list-inside text-sm space-y-2 mb-4">
+                            <li>Built Logistic Regression & Random Forest models to predict pilot engagement.</li>
+                            <li>Engineered a content-based filtering recommendation system for missions.</li>
+                            <li>Used K-Means clustering to segment missions for micro-targeting.</li>
+                            <li>Constructed an ETL pipeline for pilot and mission data using Python and SQL.</li>
+                        </ul>
+                        <div class="flex flex-wrap">
+                            <span class="bg-sky-100 text-sky-800 text-sm font-medium mr-2 mb-2 px-3 py-1.5 rounded-full">Scikit-Learn</span>
+                            <span class="bg-sky-100 text-sky-800 text-sm font-medium mr-2 mb-2 px-3 py-1.5 rounded-full">Python</span>
+                            <span class="bg-sky-100 text-sky-800 text-sm font-medium mr-2 mb-2 px-3 py-1.5 rounded-full">Pandas</span>
+                            <span class="bg-sky-100 text-sky-800 text-sm font-medium mr-2 mb-2 px-3 py-1.5 rounded-full">SQL</span>
+                            <span class="bg-sky-100 text-sky-800 text-sm font-medium mr-2 mb-2 px-3 py-1.5 rounded-full">MariaDB</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Santa Clara County -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden transform transition-transform duration-300 hover:scale-105">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Budgetary Analysis & Automation</h3>
+                        <p class="text-sm text-gray-500 mb-4">Santa Clara County Dept. of Family and Children Services</p>
+                        <p class="mb-4">Performed statistical analysis on budgetary data to identify key patterns and cost drivers, establishing new data-informed budgetary guidance for the department.</p>
+                         <ul class="list-disc list-inside text-sm space-y-2 mb-4">
+                            <li>Analyzed financial data to uncover cost-saving opportunities.</li>
+                            <li>Developed automated reports and dashboards to track KPIs.</li>
+                            <li>Reduced manual reporting time and provided real-time insights to stakeholders.</li>
+                        </ul>
+                        <div class="flex flex-wrap">
+                            <span class="bg-sky-100 text-sky-800 text-sm font-medium mr-2 mb-2 px-3 py-1.5 rounded-full">Statistical Analysis</span>
+                            <span class="bg-sky-100 text-sky-800 text-sm font-medium mr-2 mb-2 px-3 py-1.5 rounded-full">Dashboarding</span>
+                            <span class="bg-sky-100 text-sky-800 text-sm font-medium mr-2 mb-2 px-3 py-1.5 rounded-full">Excel</span>
+                            <span class="bg-sky-100 text-sky-800 text-sm font-medium mr-2 mb-2 px-3 py-1.5 rounded-full">Report Automation</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: Transform Health -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden transform transition-transform duration-300 hover:scale-105">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Healthcare Value & Policy</h3>
+                        <p class="text-sm text-gray-500 mb-4">Transform Health LLC</p>
+                        <p class="mb-4">Contributed to projects focused on implementing evidence-based practices to improve healthcare value, significantly reducing hospital re-admissions and cost of care.</p>
+                        <ul class="list-disc list-inside text-sm space-y-2 mb-4">
+                            <li>Developed Community Paramedicine Program policies.</li>
+                            <li>Analyzed data to reduce 30-day hospital readmissions in 5 sites.</li>
+                            <li>Contributed to strategies that reduced cost of care in 4 of 5 sites.</li>
+                        </ul>
+                         <div class="flex flex-wrap">
+                            <span class="bg-sky-100 text-sky-800 text-sm font-medium mr-2 mb-2 px-3 py-1.5 rounded-full">Policy Analysis</span>
+                            <span class="bg-sky-100 text-sky-800 text-sm font-medium mr-2 mb-2 px-3 py-1.5 rounded-full">Healthcare Analytics</span>
+                            <span class="bg-sky-100 text-sky-800 text-sm font-medium mr-2 mb-2 px-3 py-1.5 rounded-full">Program Evaluation</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="text-center py-20">
+            <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">Get In Touch</h2>
+            <p class="max-w-xl mx-auto text-lg text-gray-600 mb-8">
+                I'm currently seeking new opportunities as a Data Scientist. If you have a role that you think would be a good fit, or if you just want to connect, please feel free to reach out.
+            </p>
+            <div class="flex justify-center items-center space-x-6 text-3xl">
+                <a href="mailto:stephenlouiemail@gmail.com" class="text-gray-500 hover:text-sky-600 transition-colors duration-300" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" class="text-gray-500 hover:text-sky-600 transition-colors duration-300" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-gray-800 text-white text-center p-6">
+        <p>&copy; 2025 Stephen Louie. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        // Mobile menu toggle logic
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetElement = document.querySelector(this.getAttribute('href'));
+                if (targetElement) {
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+                // Close mobile menu on link click
+                if (!mobileMenu.classList.contains('hidden')) {
+                    mobileMenu.classList.add('hidden');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
 
